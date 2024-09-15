@@ -1,11 +1,12 @@
 import React from "react";
 import "./Main.css";
-import Header from "../../components/Header/Header";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Chat from "../Chat/Chat";
 function Main() {
   return (
     <div className="main">
-      <Header />
-      <div className="main__body"></div>
+      <Sidebar />
+      <Chat />
     </div>
   );
 }
